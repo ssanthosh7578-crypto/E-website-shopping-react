@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+/* Page layout helper to keep Subscribe at bottom */
+html, body, #root {
+    height: 100%;
+}
+
+.page-wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content{
+    flex: 1 0 auto; /* grow and take available space */
+}
+
+.page-footer{
+    flex-shrink: 0;
+}
+
+/* ensure footer sits after content and not centered */
+.page-footer{
+    margin-top: auto;
+    width: 100%;
+}

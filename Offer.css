@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    margin: 40px;
+    background:linear-gradient(180deg,#fde1ff 0%,#e1ffea22 60%);
+}
+.offers_left h1{
+    font-size:80px ;
+    font-weight: 600;
+    color:black;
+}
+.offers_left button{
+    background-color: rgba(255, 0, 0, 0.819);
+    width: 170px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.offers_right{
+    margin-left: 80px;
+}

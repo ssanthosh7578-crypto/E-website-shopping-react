@@ -1,0 +1,28 @@
+.item_box{
+    width: 350px;
+     transition: transform 0.3s ease-in-out;
+}
+.item_box img{
+   transition: transform 0.3s ease-in-out;
+}
+.item_box img:hover{
+     transform: scale(1.1);
+}
+.item_box h4{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.item_cost{
+    display: flex;
+    gap: 20px;
+}
+.new_cost{
+    color: rgba(0, 0, 0, 0.742);
+    font-size: 18px;
+    font-weight: 600;
+}
+.old_cost{
+    color: rgba(0, 0, 0, 0.551);
+    font-size: 18px;
+    font-weight: 500;
+}

@@ -1,0 +1,29 @@
+.container_coll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 60vh;
+    gap: 20px;
+}
+.collect_items{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.container_coll hr{
+    width: 200px;
+    border-radius: 10px;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.732);
+    margin-top: -18px;
+}
+.container_coll h1{
+    color: black;
+    font-size: 50px;
+    font-weight: 600
+}
+.collect_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
