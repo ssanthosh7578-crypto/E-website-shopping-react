@@ -1,2 +1,2 @@
 # E-website-shopping-react
-this is basic full frontend project of e-website using react only
+This is the E-website using of react only for practice using state and hooks 
